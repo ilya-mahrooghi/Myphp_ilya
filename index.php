@@ -79,7 +79,7 @@ if(!(preg_match($last1 , $question) || preg_match($last2 , $question)))
                     if ($question == "") {
                         echo "سوال خود را بپرس!";
                     } else
-                        echo $msg
+                        echo $msg;
                     ?></p>
             </div>
             <div id="person">
